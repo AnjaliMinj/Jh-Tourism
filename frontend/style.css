@@ -81,7 +81,6 @@ body {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68') center/cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -94,6 +93,10 @@ body {
   width: 100%; height: 100%;
   background: rgba(0,0,0,0.5);
 }
+img{
+  width: 100%;
+  height: 680px;
+}
 
 .hero-content {
   position: relative;
@@ -104,13 +107,14 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 
 .hero p {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .hero-buttons {
@@ -232,6 +236,10 @@ body {
   font-size: var(--fs-55);
   color: #0b3d0b;
   margin-bottom: 10px;
+}
+
+.traditions p {
+  font-size: 22px;
 }
 
 /* Tribal Heritage */
